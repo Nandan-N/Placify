@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+}
+
+.job-widgets {
+  display: flex;
+  flex-direction: column; /* Arrange widgets vertically */
+  justify-content: auto; /* Align to the top (left) */
+  width: 60%; /* 3/4 of the screen width */
+  margin-left: 10%;  
+  padding: 20px; 
+  
+}
+
+.job-widget {
+  background-color: black;
+  padding: 16px;
+  margin: 10px;
+  border: 3px solid #00f9da;
+  border-radius: 8px;
+  color: white;
+
+}
+
+.widget-content {
+  color: white;
+}
+
+.homejob{
+  background-color: white;
+
+}
+
+.white-icon {
+  color: white;
+  font-size: 24px; 
+ margin-left:auto;
+}
